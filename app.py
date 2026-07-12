@@ -4,8 +4,8 @@ import google.generativeai as genai
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel("gemini-2.5-flash")
 
-st.set_page_config(page_title="AI Learning Buddy", page_icon="📘")
-st.title("📘 AI Learning Buddy")
+st.set_page_config(page_title="AI Learning Buddy Dharani", page_icon="📘")
+st.title("📘 AI Learning Buddy Dharani")
 
 topic = st.text_input("Enter a Topic")
 option = st.selectbox(
